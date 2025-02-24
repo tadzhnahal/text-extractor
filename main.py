@@ -96,7 +96,7 @@ class TextExtractorApp(QMainWindow):
     def copy_to_clipboard(self):
         text = self.output_text.toPlainText()
         try:
-            pyperclip.copy(text)  # Копируем в буфер обмена
+            pyperclip.copy(text)
         except Exception as e:
             self.output_text.append(f"Ошибка при копировании в буфер обмена: {e}")
 
