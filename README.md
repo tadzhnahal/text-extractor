@@ -12,25 +12,25 @@
 
 Чтобы запустить программу на своем компьютере, выполните пять шагов:
 
-1. Клонируйте репозиторий:
+1. Убедитесь, что у вас установлен Tesseract. Для установки Tesseract на Windows, следуйте инструкциям на [официальной странице](https://github.com/tesseract-ocr/tesseract).
+
+2. Клонируйте репозиторий:
 
     ```bash
     git clone https://github.com/your-username/text-extractor.git
     ```
 
-2. Перейдите в папку с проектом:
+3. Перейдите в папку с проектом:
 
     ```bash
     cd text-extractor
     ```
 
-3. Установите зависимости:
+4. Установите зависимости:
 
     ```bash
     pip install -r requirements.txt
     ```
-
-4. Убедитесь, что у вас установлен Tesseract. Для установки Tesseract на Windows, следуйте инструкциям на [официальной странице](https://github.com/tesseract-ocr/tesseract).
 
 5. Запустите программу:
 
